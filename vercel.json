@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "http://production.eba-qhm6rmdn.ap-south-1.elasticbeanstalk.com/api/:path*"
+    }
+  ]
+}
+
